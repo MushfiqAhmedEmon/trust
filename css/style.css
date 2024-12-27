@@ -1,0 +1,198 @@
+/*All Common css start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/*All Common css End*/
+
+/*topHeaderpartstart*/
+#topHeader{
+    background: #3e3e3e;
+    padding: 20px 0;
+}
+.topheaderitempart{
+    display: flex;
+    justify-content: space-between;
+}
+.topHleft span{
+    color: white;
+    margin-right: 35px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+.topHleft span i{
+    padding-right: 7px;
+}
+.tophright i{
+    padding: 0 10px;
+    color: white;
+}
+/* Top Header part End/*
+/*Header part Start */
+#headerpart{
+    padding: 20px 0;
+}
+.logowithMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #555555;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    padding: 0 25px;
+}
+.menu{
+    padding-top: 15px;
+}
+/*Header part End */
+/*Banner Part Start*/
+#bannerpart{
+    background-image: url(../Images/BI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.bannerOverlay{
+    background: hsla(0, 0%, 3%, 0.521);
+    padding-top:250px;
+    padding-bottom:340px;
+}
+.bannerText{
+    text-align: center;
+}
+.bannerText span{
+    color: #f8b864;
+}
+.bannerText h4{
+    font-size: 30px;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
+.bannerText h1{
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.bannerText p{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    padding: 0 334px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+.bannerText{
+    color: white;
+}
+.bannerText a{
+    padding: 15px 35px;
+    background: #f8b864;
+    border-radius: 50px;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    transition: .4s;
+    
+}
+.bannerText a:hover{
+    background: white;
+    color: #f8b864;
+}
+/*Banner Part End*/
+/*goalPart Start*/
+#goalPart{
+    background: white;
+    padding-bottom: 250px;
+    
+}
+.over{
+    position: relative;
+}
+.goalCard{
+    background: white;
+    padding: 130px 60px;
+   box-shadow:  0 0 5px rgba(85, 85, 85, 0.2);
+   position: absolute;
+top: -100px;
+left: 0;
+width: 100%;
+text-align: center;
+}
+.goalCard h3{
+    font-size: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+.goalCard p{
+    margin-top: 20px;
+    color: #555555;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;  
+}
+.goalhand{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+.goalhand::before{
+position: absolute;
+height: 1px;
+width: 150px;
+background: #555555;
+content: "";
+left: -170px;
+top: 50%;
+transform: translateY(-50%);
+}
+.goalhand::after{
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    background:#555555;
+    content: "";
+    right: -170px;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+.goalItemPart{
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+}
+.goalItem{
+width: 30%;
+}
+.goalItem i{
+    font-size: 50px;
+}
+.goalItem{
+    text-align: center;
+}
+/*goalPart End*/
